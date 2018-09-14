@@ -1,0 +1,10 @@
+server:
+  port : 8082
+
+security:
+  oauth2:
+    client:
+      client-id: 209d6918-6f6e-4742-a342-dc1747ddfbb6
+      client-secret: fa0eb62d-675f-4a8a-998f-c731caf03889
+    resource:
+      token-info-uri: http://localhost:8080/oauth/check_token
